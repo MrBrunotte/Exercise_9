@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <!-- Fonts Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Bish-Bosh 2.0</title>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Bish-Bosh 2.0</h1>
+            <div>
+                <h3>Bish-Bosh skriver ut alla tal mellan 1 och 100, men vissa undantag:</h3>
+                <ul>
+                    <li>
+                        Om talet är jämnt delbartmed 3 listas <strong>"Bish"</strong>​ ​istället ​för talet.
+                    </li>
+                    <li>
+                        Om talet är jämnt delbart med 4 listas <strong>"Bosh"</strong>​ ​istället ​förtalet.
+                    </li>
+                    <li>
+                        Om talet är jämnt delbart med både med 3 och 4 skrivs <strong>‘"Bish-Bosh"</strong>​
+                    </li>
+                </ul>
+                <p>1, 2, ​Bish​, ​Bosh​, 5, ​Bish​, 7, ​Bosh​, ​Bish​, 10, 11, ​Bish-Bosh​, 13, 14...etc​
+                </p>
+            </div>
+            <main>
+                <h2>Bish-Bosh input</h2>
+                <p>Choose the <strong>End digit</strong> for your custom Bish-Bosh array, <br>and then enter a number
+                    for
+                    <strong>Bish</strong> and a
+                    number for <strong>Bosh</strong></p>
+
+
+                <label for="endNumber">End digit:</label>
+                <input type="number" id="input"><br><br>
+
+                <label for="bishbosh">Bish number:</label>
+                <input type="number" id="input2"><br><br>
+
+                <label for="bishbosh">Bosh number:</label>
+                <input type="number" id="input3"><br><br>
+
+                <button id="btn">Click here!</button>
+                <p id="output"></p>
+            </main>
+    </header>
+    </div>
+    <footer class="centerItemVertical footerBg">
+        <p class="align.middle">Bish-Bosh || Webmaster Stefan Brunotte &#169; 2020</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <script src="./main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <p id="bishbosh"></p>
+</body>
+
+</html>
